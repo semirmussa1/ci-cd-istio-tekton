@@ -8,7 +8,7 @@ spec:
   params:
     - name: GIT_URL
       type: string 
-      default: https://github.com/jkapl/ci-cd-istio-tekton
+      default: https://github.com/semirmussa1/ci-cd-istio-tekton
     - name: BUILDER_IMAGE
       type: string
       default: https://quay.io/buildah/stable
@@ -23,7 +23,7 @@ spec:
       default: latest
     - name: IMAGE_REPOSITORY
       type: string
-      default: quay.io/jkap
+      default: quay.io/semirmussa
   tasks:
     - name: git-clone
       taskRef:
