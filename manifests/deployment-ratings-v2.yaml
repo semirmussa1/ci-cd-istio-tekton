@@ -20,6 +20,6 @@ spec:
         version: v2
     spec:
       containers:
-      - name: ratings
-        image: quay.io/semirmussa/ratings:v2
-        imagePullPolicy: IfNotPresent
+        - name: ratings
+          image: dso-quay-registry-quay-quay-enterprise.apps.ocpcluster1.ocp.stackpoc.com/preda/ratings:v2
+          imagePullPolicy: IfNotPresent
