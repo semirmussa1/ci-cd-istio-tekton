@@ -16,7 +16,7 @@ spec:
     - name: SERVICE_NAME
       value: ratings
     - name: IMAGE_REPOSITORY
-      value: quay.io/semirmussa
+      value: dso-quay-registry-quay-quay-enterprise.apps.ocpcluster1.ocp.stackpoc.com/preda
     - name: SERVICE_VERSION
       value: v2
   workspaces:

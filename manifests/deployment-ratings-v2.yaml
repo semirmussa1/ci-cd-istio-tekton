@@ -21,5 +21,6 @@ spec:
     spec:
       containers:
       - name: ratings
-        image: quay.io/semirmussa/ratings:v2
+        image: dso-quay-registry-quay-quay-enterprise.apps.ocpcluster1.ocp.stackpoc.com/preda/ratings:v2
         imagePullPolicy: IfNotPresent
+      

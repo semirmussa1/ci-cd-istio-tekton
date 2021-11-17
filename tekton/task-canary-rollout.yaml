@@ -17,7 +17,7 @@ spec:
 
   steps:
   - name: create-files
-    image: docker.io/mikefarah/yq
+    image: docker.io/mikefarah/yq:3.3.4
     securityContext:
       privileged: true
     script: |
