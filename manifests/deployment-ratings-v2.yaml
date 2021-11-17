@@ -23,4 +23,3 @@ spec:
       - name: ratings
         image: dso-quay-registry-quay-quay-enterprise.apps.ocpcluster1.ocp.stackpoc.com/preda/ratings:v2
         imagePullPolicy: IfNotPresent
-      
