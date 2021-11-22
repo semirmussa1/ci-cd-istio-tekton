@@ -14,16 +14,20 @@ spec:
         - destination:
             host: ratings
             subset: v1
-          weight: 24
+          weight: 18
         - destination:
             host: ratings
             subset: v2
-          weight: 22
+          weight: 18
         - destination:
             host: ratings
             subset: v2
-          weight: 22
+          weight: 18
         - destination:
             host: ratings
             subset: v2
-          weight: 22
+          weight: 18
+        - destination:
+            host: ratings
+            subset: v2
+          weight: 18
